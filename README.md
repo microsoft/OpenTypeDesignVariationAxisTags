@@ -1,6 +1,8 @@
 # OpenTypeDesignVariationAxisTags
 This repo is used for discussion and review of proposals for registration of OpenType design-variation axis tags.
 
+For background on OpenType variable fonts and design-variation axes, see [Background on Design Variation Axes](/BackgroundOnAxes.md).
+
 ## Background: Design variation axes
 Version 1.8 of the [OpenType spec](http://www.microsoft.com/typography/otspec/) introduced support for variable fonts. An OpenType variable font is a single font that behaves like an entire family of fonts by including data that defines ways in which the glyph outlines can vary. For a given font, variations are defined on one or more dimensions or _axes_ of design variation. For example, a font may define variation on a weight axis, allowing the thickness of stems or other strokes to be larger (heavier) or smaller (lighter). Or a font may define variation on a “serifness” axis, so that it can vary from no serifs, to small, medium-sized or large serifs. Or a font might define variation on weight and “serifness”, as well as other axes. 
 
