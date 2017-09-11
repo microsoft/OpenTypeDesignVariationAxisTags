@@ -72,7 +72,6 @@ implementation to another.
 If an axis is expected normally to be used with specific discrete values, the specifc numeric values and
 can their meaning can be enumerated. 
 
-
 ## Recommended or required “Regular” value
 It is conventional practice that a font family has a “Regular” font member. Depending on the nature of
 an axis, there may be a certain numeric value that is required or recommended for a “Regular” font. 
@@ -91,9 +90,20 @@ usefulness of the axis in fonts and applications.
 
 ## UI recommendations
 Provide any recommendations for how an axis should be handled in application user interfaces. This should
-be general recommendations that will be useful to all font or application developers, such as whether an
-axis should generally remain hidden. This should not include recommendations about what type of control
-mechanisms (sliders, knobs, pads, etc.) should be used in UI.
+be general recommendations that will be useful to all font or application developers. It should not
+include recommendations about what type of control mechanisms (sliders, knobs, pads, etc.) should be used
+in UI.
+
+This information should be provided if recommendations are given for programmatic interaction, especially
+if it is recommended that an axis generally remain hidden from end users.
+
+Note: A hidden axis is useful only in a variable font, and is marked in the font using the HIDDEN_AXIS
+flag in the 'fvar' table. If it is recommended that an axis generally be hidden, then there must be clear
+recommendations for programmatic interaction.
+
+If applicable, it is also useful to provide recommendations to application developers regarding kinds of
+users for which it would or would not be useful to have direct control over the axis, or scenarios in
+which control over the axis may be most useful.
 
 ## Additional information
 There are no specific details that are required, but the documentation of an axis should include anything else beyond the above categories of information that will be essential or helpful in enabling different font and application developers to implement the axis as intended, with consistent behaviors from one implementation to another.
