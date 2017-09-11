@@ -1,13 +1,13 @@
 # Guidance for Axis Details
 
-The [ProposalSummary.md](Proposal Summary) form has a section for you to provide draft text
+The [Proposal Summary](ProposalSummary.md) form has a section for you to provide draft text
 for details about an axis that would be published as the description of the axis in the
 registry. This file provides guidance regarding each of the fields of information that
 are included in the description of a registered axis.
 
 ## Tag 
 The proposed tag must be unique, different from other registered axis tags, and must conform
-to the [https://www.microsoft.com/typography/otspec/dvaraxisreg.htm](syntactic requirements) for axis
+to the [syntactic requirements](https://www.microsoft.com/typography/otspec/dvaraxisreg.htm) for axis
 tags described in the OpenType spec.
 
 ## Name
