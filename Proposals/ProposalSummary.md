@@ -1,7 +1,11 @@
 # Proposal Summary Form
 
 Every proposal must be created in a separate folder and include a filled-in copy of this proposal
-summary. A proposal may be accommpanied by other supporting files.
+summary. A preliminary proposal can be submitted without all the information provided, but a
+proposed axis will not be registered until all essential information is provided.
+
+A proposal may be accommpanied by other supporting files, such as background information, sample
+implementations or specimens.
 
 This form must be provided in English, but copies in other languages can also be provided. If
 copies for multiple languages are provided, the copies for other should be placed within a
