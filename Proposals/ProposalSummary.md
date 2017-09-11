@@ -17,7 +17,14 @@ put this summary in that folder.]
 
 **Date of submission:** [date]
 
+**New or revised proposal:** [New | Revision.]
+
+**Previous revision date:** [If a revised proposal, date of the previous revision. If a new proposal,
+&ldquo;N/A&rdquo;.]
+
 ## General Technical Information
+**Overview:** [A brief description of the proposal&mdash;a detailed description is provided below.]
+
 **Related axes:** [If this axis is intended to be used specifically in combination with certain other
 already-registered or proposed axes, identify the axes or proosals.]
 
