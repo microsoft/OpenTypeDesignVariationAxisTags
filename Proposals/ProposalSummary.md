@@ -40,6 +40,8 @@ In this section, provide a draft of the fields of information that would be incl
 page describing the axis. All fields are required and must be provided before an axis tag can be
 registered. If a field is not applicable, specify &ldquo;N/A&rdquo;.
 
+See [GuidanceForAxisDetails.md](Guidance for Axis Details) for guidance on this section.
+
 **Tag:** [proposed tag]
 
 **Name:** [a short, US English name for the axis]
@@ -57,9 +59,8 @@ used for a "Regular" style within a family. If not applicable, specify &ldquo;N/
 it may be useful for applications to select an axis value programmatically.]
 
 **UI recommendations:** [Provide any recommendations regarding how this axis should be handled in
-application user interfaces. In particular, indicate if an axis should generally remain hidden
-(that is, the axis should be flagged in a font 'fvar' table with the HIDDEN_AXIS flag), or should
-only be presented in certain scenarios or for certain kinds of users.]
+application user interfaces. See the Guidance file for details on what information is and isn't
+expected.]
 
 **Additional information:** [Provide any additional information that may be needed or helpful for
 implementers to understand how the axis should be used.]
