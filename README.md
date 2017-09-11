@@ -17,7 +17,6 @@ A registered axis provides two key benefits over custom axes:
 
 **Interoperability:** Interoperability means that certain relationships exist between different fonts, and that applications can utilize those relationships, or utilize characteristics of fonts that are implied. For example, consider font substitution behaviors: if certain text has been formatted with an italic font, but a different font must be substituted when content is viewed in some context, then the result will be best if another italic font is used (other things being equal). By having a conventionally-defined property of “italic”, an application can determine when the preferre font is italic, which alternate fonts are italic, and make the best choice. As another example, consider the optical size axis: by specifying the numeric scale to correspond to text size in points, that makes it possible for applications to create mechanisms to automatically choose an optical-size font variant.
 
-
 ## Process for registration of new design-variation axes
 A process is used for registration of new axes for addition to the OpenType spec. The goals of the process are to ensure that:
 - There is consensus that a registered axis will be beneficial for use in fonts and text-layout applications, and there is commitment or, at least, reasonable expectation that the axis will be used by multiple vendors.
@@ -25,47 +24,6 @@ A process is used for registration of new axes for addition to the OpenType spec
 - The proposed axis has a well-formed axis tag, and there is adequate and clear documentation of how the axis is meant to be used.
 
 Each of these points is discussed in more detail in the following sub-sections. See also information provided in [OpenType Design-Variation Axis Tag Registry](https://www.microsoft.com/typography/otspec/dvaraxisreg.htm).
-
-### Formal requirements for a registered axis
-For an axis to be registered, certain formal requirements must be met. These have to do with the axis tag, and the documentation that describes the axis. A proposal to register an axis will not be sufficiently mature until these requirements are met, and evaluation can proceed more quickly by satifying these requirements as early as possible.
-
-A registered axis tag must have exactly four ASCII characters; it must begin with a letter, and must use only letters, digits, or the space character. Space character must only occur as trailing characters in tags that have fewer than four letters or digits.
-
-Documentation for the axis must include the following:
-- A US English name for the axis.
-- A clear description of the intended meaning and behavior for the axis.
-- A clear specification of the numeric scale used for the axis.
-- When appropriate, a numeric value on the axis scale that is recommended or required for that axis in a “Regular” font.
-- When appropriate, recommendations for how applications might interact programmatically with the axis.
-- Other additional information that is relevant to guide font or application developers in usage of the axis.
-
-**Name:** It should be noted that some applications may use the specified name as a display string in user interfaces to refer to an axis, or as the basis for translation to derive localized display strings. An axis name should be chosen with this in mind.
-
-**Description:** The description should be complete and clear enough that independent font or application developers will be able to implement the axis as intended, with consistent behaviors from one font or application to another. The description should be written with interoperability in mind.
-
-**Numeric scale:** Every axis must have an associated numeric scale. This is implicitly required for axes that will be used in variable fonts, but also applies to axes that are only expected to be relevant for families with static, non-variable fonts. 
-
-The description of the scale must indicate what range of values are valid for that axis. Every axis scale must fit within the limits supported by the variation format, which uses a signed 16.16 (binary) representation. For a given axis, specific minimum or maximum values can be specified, so that only a sub-range of that range is permitted for that axis. For example, the optical size axis requires values that are strictly greater than zero, since the scale is meant to be correlated with text size which is always greater than zero.
-
-Note that a given font may use only a portion of the range that is valid for a given axis. For example, the valid range for the weight ('wght') axis is 1 to 1000, but a given variable font might only support weight instances in the range 300 to 700.
-
-In addition to the specifying what numeric range is valid, there must also be a specification of how the numeric scale is to be interpreted — what do the numbers mean or physically represent. The nature of the scale interpretation can vary considerably from one axis to another. Some axes might use a scale that corresponds to an objective, physical measure, such as the text em size or font design units. Other axis scales might be a proportion relative to some reference; for example, the scale for the width ('wdth') axis gives a proportional width of design instance (as a percentage) related to what the font designer considers to be “normal” width for that family or variable font. Other scales may be somewhat more abstract, but should at least relate to something that is conventionally understood; for example, values for the weight ('wght') axis are to be interpreted in the same way that OS/2.usWeightClass values have always been understood.
-
-In generally, it is preferable for an axis scale to be tied to a specific, physical measure that can be determined unambiguously. The closer a scale is to that ideal, the better the opportunities will be for consistent behaviors in independently-developed fonts, and for devising useful algorithms by which applications can control text layout to produce pleasing and effective typography. 
-
-For example, the weight axis uses a scale that is very vaguely defined, with the result that there is limited consistency in the typographic color obtained from one “Bold” font to another. In comparison, the width axis uses a scale with a somewhat more specific interpretation that is specific enough to be used in an algorithm for automatically fitting text formatted with a variable font to a specified width. But this proportional width scale is still somewhat imprecise, and the algorithm for fitting text would require some repeated, trial-and-error attempts. A different, hypothetical axis with a scale that gave the specific, design-unit advance width of each character in a monospaced font, then the text-fitting algorithm could compute in advance the specific design instance required to fit the specified width precisely. The more closely the scale is tied to a specific physical measure, the more useful it can be.
-
-However the scale is defined, the description should be complete and clear enough that independent developers will be able to implement the axis as intended, with consistent behaviors from one implementation to another. 
-
-**Recommended or required “Regular” value:** It is conventional practice that a font family has a “Regular” font member. Depending on the nature of an axis, there may be a certain numeric value that is required or recommended for a “Regular” font. 
-
-For example, a “Regular” font is not italic or oblique. Hence, the italic ('ital') value and slant ('slnt') values for a “Regular” font are, by implicit defition, zero.
-
-The documentation should make clear whether a specified value for that axis is recommended or is required.
-
-**Recommended programmatic interaction:** When an axis lends itself to defining algorithms for programmatic interaction by which applications might automatically select an axis value, it is useful to provide some guidance or, at least, suggestions as to how this might be done. Precise definition of algorithms isn't required or even expected. But by providing pointers to ways that programmatic interaction might be useful, this will increase the usefulness of the axis in fonts and applications.
-
-**Additional information:** There are no specific details that are required, but the documentation of an axis should include anything else beyond the above categories of information that will be essential or helpful in enabling different font and application developers to implement the axis as intended, with consistent behaviors from one implementation to another.
 
 ### What makes a good candidate for being a registered axis?
 
