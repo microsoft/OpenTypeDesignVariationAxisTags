@@ -18,11 +18,11 @@ A registered axis provides two key benefits over custom axes:
 **Interoperability:** Interoperability means that certain relationships exist between different fonts, and that applications can utilize those relationships, or utilize characteristics of fonts that are implied. For example, consider font substitution behaviors: if certain text has been formatted with an italic font, but a different font must be substituted when content is viewed in some context, then the result will be best if another italic font is used (other things being equal). By having a conventionally-defined property of “italic”, an application can determine when the preferre font is italic, which alternate fonts are italic, and make the best choice. As another example, consider the optical size axis: by specifying the numeric scale to correspond to text size in points, that makes it possible for applications to create mechanisms to automatically choose an optical-size font variant.
 
 
-## Registration of new design-variation axes
-A process is used for registration of new axes for addition to the OpenType spec. The aim of the process is to ensure that:
-- The proposed axis has a well-formed axis tag, and there is adequate and clear documentation of how the axis is meant to be used.
+## Process for registration of new design-variation axes
+A process is used for registration of new axes for addition to the OpenType spec. The goals of the process are to ensure that:
+- There is consensus that a registered axis will be beneficial for use in fonts and text-layout applications, and there is commitment or, at least, reasonable expectation that the axis will be used by multiple vendors.
 - A proposed axis is appropriate for use as a design variation axis and doesn't duplicate other registered axes, and there is a valid reason for treating this as a registered axis rather than as a custom axis.
-- There is indication that the axis will be beneficial for use in fonts and text-layout applications, and is likely to get actual use.
+- The proposed axis has a well-formed axis tag, and there is adequate and clear documentation of how the axis is meant to be used.
 
 Each of these points is discussed in more detail in the following sub-sections. See also information provided in [OpenType Design-Variation Axis Tag Registry](https://www.microsoft.com/typography/otspec/dvaraxisreg.htm).
 
