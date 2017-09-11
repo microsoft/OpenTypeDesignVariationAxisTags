@@ -89,17 +89,19 @@ providing pointers to ways that programmatic interaction might be useful, this w
 usefulness of the axis in fonts and applications.
 
 ## UI recommendations
-Provide any recommendations for how an axis should be handled in application user interfaces. This should
-be general recommendations that will be useful to all font or application developers. It should not
+Provide any recommendations for how an axis should be handled in application user interfaces. These should
+be general recommendations that will be useful to all font or application developers to understand how the axis would be used typically. It should not
 include recommendations about what type of control mechanisms (sliders, knobs, pads, etc.) should be used
-in UI.
+in UI. 
 
-This information should be provided if recommendations are given for programmatic interaction, especially
-if it is recommended that an axis generally remain hidden from end users.
+Proposals should also include a recommendation on whether the axis should normally be marked hidden via the 
+HIDDEN_AXIS flag in the 'fvar' table. If it is recommended that an axis generally be hidden, then there must be 
+clear recommendations for programmatic interaction.
 
-Note: A hidden axis is useful only in a variable font, and is marked in the font using the HIDDEN_AXIS
-flag in the 'fvar' table. If it is recommended that an axis generally be hidden, then there must be clear
-recommendations for programmatic interaction.
+UI recommendations should be provided if recommendations are given for programmatic interaction, especially
+if it is recommended that an axis generally remain hidden from end users. For example, if a proposal were being 
+written for the the Optical Size (opsz) axis, that proposal might list opsz as being hidden, and offer the UI 
+recommendation that the opsz coordinate would be automatically selected when the user selects the text size.
 
 If applicable, it is also useful to provide recommendations to application developers regarding kinds of
 users for which it would or would not be useful to have direct control over the axis, or scenarios in
