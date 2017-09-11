@@ -17,7 +17,7 @@ put this summary in that folder.]
 
 **Date of submission:** [date]
 
-**New or revised proposal:** [New | Revision.]
+**New or revised proposal:** [New | Revision]
 
 **Previous revision date:** [If a revised proposal, date of the previous revision. If a new proposal,
 &ldquo;N/A&rdquo;.]
@@ -44,7 +44,7 @@ registered. If a field is not applicable, specify &ldquo;N/A&rdquo;.
 
 **Valid numeric range:** [the range or permissible values for this axis]
 
-**Scale interpretation:** <describe what the numeric values represent>
+**Scale interpretation:** [describe what the numeric values represent]
 
 **Recommended or required &ldquo;Regular&rdquo; value:** [If a applicable, a value that should be
 used for a "Regular" style within a family. If not applicable, specify &ldquo;N/A&rdquo;.]
