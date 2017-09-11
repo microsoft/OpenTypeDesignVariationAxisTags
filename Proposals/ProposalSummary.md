@@ -40,7 +40,7 @@ In this section, provide a draft of the fields of information that would be incl
 page describing the axis. All fields are required and must be provided before an axis tag can be
 registered. If a field is not applicable, specify &ldquo;N/A&rdquo;.
 
-See [GuidanceForAxisDetails.md](Guidance for Axis Details) for guidance on this section.
+See [Guidance for Axis Details](GuidanceForAxisDetails.md) for guidance on this section.
 
 **Tag:** [proposed tag]
 
