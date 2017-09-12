@@ -43,7 +43,7 @@ candidate to be a registered axis.
 
 ## Other Considerations
 In addition to benefits in relation to conventionality and interoperability, a proposed axis
-should be evaluated in relation to altnerative possibilities. For example:
+should be evaluated in relation to alternative possibilities. For example:
 
 - Would the kind of design variation be better handled using OpenType Layout features?
 
@@ -67,8 +67,13 @@ When evaluating a proposed axis, it may be necessary to evaluate it together wit
 axes. The impact of the proposed axis for the entire set of registered axes should also be
 considered.
 
-## Consensus and Commitment
+## Formal Requirements for a Mature Proposal
+Every proposal must include a copy of the [Proposal Summary](Proposals/ProposalSummary.md) form.
+To be considered mature, the form must be completed, and the details reviewed. In particular,
+the form must include a complete draft of the axis description that would be published in the
+registry.
 
+## Consensus and Commitment
 Ultimately, a registered axis provides no benefits unless it gets used. For this reason, it's
 important to establish a likelihood of usage. This begins by gaining consensus on the merits.
 A proposal might assert that a candidate axis has merits, but if others don't perceive the
@@ -92,6 +97,8 @@ In summary, then:
 a registered axis, rather than being used as a custom axis. 
 - A proposal should preferably discuss alternatives, and call out any relationships to other
 registered or proposed axes.
+- The Proposal Summary form must be completed, with a complete draft of text of the axis
+description for use in the Registry.
 - There needs to be consensus among independent parties that the proposal has merits and is
 mature and good indication that the proposed axis will get used by multiple, independent
 vendors.
