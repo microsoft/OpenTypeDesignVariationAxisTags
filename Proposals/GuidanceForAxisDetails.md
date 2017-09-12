@@ -96,12 +96,12 @@ in UI.
 
 Proposals should also include a recommendation on whether the axis should normally be marked hidden via the 
 HIDDEN_AXIS flag in the 'fvar' table. If it is recommended that an axis generally be hidden, then there must be 
-clear recommendations for programmatic interaction.
+clear recommendations for programmatic interaction. Note that only variable fonts can have hidden axes.
 
 UI recommendations should be provided if recommendations are given for programmatic interaction, especially
 if it is recommended that an axis generally remain hidden from end users. For example, if a proposal were being 
-written for the the Optical Size (opsz) axis, that proposal might list opsz as being hidden, and offer the UI 
-recommendation that the opsz coordinate would be automatically selected when the user selects the text size.
+written for the the Optical Size ('opsz') axis, that proposal might list 'opsz' as being hidden, and offer the UI 
+recommendation that the 'opsz' coordinate would be automatically selected when the user selects the text size.
 
 If applicable, it is also useful to provide recommendations to application developers regarding kinds of
 users for which it would or would not be useful to have direct control over the axis, or scenarios in
