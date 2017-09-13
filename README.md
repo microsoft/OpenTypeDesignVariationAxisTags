@@ -49,6 +49,13 @@ another proposal with the same name, then append your ID or the name of the vend
 represent. (Please use _ or - as delimiters, not spaces.) Your pull request will be checked
 to make sure the submission is well formed and in scope.
 
+To submit a combined proposal involving a group of multiple, inter-dependent axes, you should
+create a sub-folder under the Proposals folder for the combined proposal. You could provide a
+single Proposal Summary form, but there must be a separate Proposed Axis Details section for
+each axis. Alternatively, you can provide an overview file (Overview.md) with separate
+Proposal Summary forms for each axis, with a distinguishing qualifier&mdash;a short name or
+proposed axis tag&mdash;appended to the file name. (For example, &ldquo;ProposalSummary_Grade.md&rdquo;.)
+
 In addition to the Proposal Summary form, a proposal can include other supporting files to
 help clarify the way the axis is meant to work or how it might be used. These might provide
 additional background information or demonstrations of usage. 
