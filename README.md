@@ -110,9 +110,13 @@ user manipulation, then additionally there must be a statement of intent to impl
 support for the axis from at least two major platform vendors or three independent layout
 library owners. 
 
-Microsoft, as owners of the OpenType specification, will be the final judge that a
+Microsoft, as custodians of the OpenType specification, will be the final judge that a
 proposal is mature, and that there is broad consensus and industry support. This
-decision will be made in consultation with a small panel of independent advisors.
+decision will be made in consultation with a small panel of independent advisors. The
+role of panel members will be primarily to confirm that there is broad concensus and
+that the proposal is mature. Individual panel members may have particular opinions on
+a proposal, but are expected to separate their role in evaluating the merits of a
+proposal from the role of evaluating consensus.
 
 ## Contributing
 
