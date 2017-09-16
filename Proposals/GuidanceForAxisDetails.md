@@ -107,5 +107,10 @@ If applicable, it is also useful to provide recommendations to application devel
 users for which it would or would not be useful to have direct control over the axis, or scenarios in
 which control over the axis may be most useful.
 
+## Script or language considerations
+Indicate whether the axis would be applicable only to specific scripts or languages, or groups of scripts or
+languages. Also, describe any special considerations that are relevant when the axis is being applied to
+fonts for different scripts or languages.
+
 ## Additional information
 There are no specific details that are required, but the documentation of an axis should include anything else beyond the above categories of information that will be essential or helpful in enabling different font and application developers to implement the axis as intended, with consistent behaviors from one implementation to another.
