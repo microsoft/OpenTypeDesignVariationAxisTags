@@ -39,6 +39,11 @@ idea from other peers. This can be done in various ways, including discussion on
 or the OpenType email list. You can also use the Issue mechanism for this repository: please
 apply the &ldquo;new axis idea&rdquo; label to your issue.
 
+Note that, if a proposal is eventually adopted, it may undergo changes during the review
+process. Changes may come from the proposer, if they make refinements, but changes may also
+potentially arise from the community as a consensus emerges for a particular understanding of
+an axis, its behavior and its merits.
+
 Also, please make sure you read the Contributing section below.
 
 To submit a proposal, use a new topic branch to create a new copy of the
