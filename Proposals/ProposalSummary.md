@@ -62,6 +62,10 @@ it may be useful for applications to select an axis value programmatically.]
 application user interfaces. See the Guidance file for details on what information is and isn't
 expected.]
 
+**Script or language considerations:** [Indicate whether the axis is applicable only to specific
+scripts or languages, and describe any special considerations for applying the axis to different
+scripts or languages.
+
 **Additional information:** [Provide any additional information that may be needed or helpful for
 implementers to understand how the axis should be used.]
 
