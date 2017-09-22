@@ -114,7 +114,10 @@ families or variable fonts. If the intended usage for an axis is primarily to ha
 selection of axis values be controlled via programmatic interaction rather than direct
 user manipulation, then additionally there must be a statement of intent to implement
 support for the axis from at least two major platform vendors or three independent layout
-library owners. 
+library owners. In some cases, it may be requested that two of the independent foundry or
+software supporters of a proposal provide demo implementations in order to confirm that
+there is a common understanding of how the proposed axis is expected to behave and be
+used.
 
 Microsoft, as custodians of the OpenType specification, will be the final judge that a
 proposal is mature, and that there is broad consensus and industry support. This
