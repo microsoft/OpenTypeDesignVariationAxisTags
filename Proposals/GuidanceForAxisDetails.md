@@ -100,12 +100,14 @@ clear recommendations for programmatic interaction. Note that only variable font
 
 UI recommendations should be provided if recommendations are given for programmatic interaction, especially
 if it is recommended that an axis generally remain hidden from end users. For example, if a proposal were being 
-written for the the Optical Size ('opsz') axis, that proposal might list 'opsz' as being hidden, and offer the UI 
-recommendation that the 'opsz' coordinate would be automatically selected when the user selects the text size.
+written for the the Optical Size ('opsz') axis, that proposal might recommend 'opsz' to be kept hidden from UI 
+and that the 'opsz' coordinate be automatically selected when the user selects the text size.
 
 If applicable, it is also useful to provide recommendations to application developers regarding kinds of
 users for which it would or would not be useful to have direct control over the axis, or scenarios in
-which control over the axis may be most useful.
+which control over the axis may be most useful. For example, a Optical Size proposal might recommend that
+the axis be hidden and programatically controlled for most users, but that advanced typographers be able to
+manipulate it directly.
 
 ## Script or language considerations
 Indicate whether the axis would be applicable only to specific scripts or languages, or groups of scripts or
