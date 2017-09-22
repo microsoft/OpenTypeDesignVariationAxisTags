@@ -61,14 +61,15 @@ each axis. Alternatively, you can provide an overview file (Overview.md) with se
 Proposal Summary forms for each axis, with a distinguishing qualifier&mdash;a short name or
 proposed axis tag&mdash;appended to the file name. (For example, &ldquo;ProposalSummary_Grade.md&rdquo;.)
 
-In addition to the Proposal Summary form, a proposal can include other supporting files to
+In addition to the Proposal Summary form, a proposal should include other supporting files to
 help clarify the way the axis is meant to work or how it might be used. These might provide
-additional background information or demonstrations of usage. 
-
-Demo fonts and specimens can be particularly useful to help others understand the intent
-and merits. These can be submitted into the repo, or pointers to external sites can be
-provided. These can be provided at the same time the Proposal Summary is first submitted,
-or at any time later.
+additional background information or demonstrations of usage. In particular, it is strongly
+recommended that demo fonts and specimens be provided: these are particularly useful to help
+others understand the intent and merits of a proposed axis. A video that demonstrates how a
+design changes across an axis range can also be very helpful. Supporting files can be
+submitted into the repo, or an &ldquo;Other Supporting Files&rdquo; page with pointers to
+external sites can be used. These can be provided at the same time the Proposal Summary is
+first submitted, or at any time later.
 
 ### Review and discussion
 Every proposal for a new registered axis must be available for review and discussion for a
