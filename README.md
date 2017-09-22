@@ -121,10 +121,11 @@ used.
 
 Microsoft, as custodians of the OpenType specification, will be the final judge that a
 proposal is mature, and that there is broad consensus and industry support. This
-decision will be made in consultation with a small panel of independent advisors. The
-role of panel members will be primarily to confirm that there is broad concensus and
-that the proposal is mature. Individual panel members may have particular opinions on
-a proposal, but are expected to separate their role in evaluating the merits of a
+decision will be made in consultation with and on the recommendation of a panel of
+independent advisors. The role of panel members will be primarily to confirm that
+important issues have been considered, that the proposal is mature, and that there
+is broad concensus. Individual panel members may have particular opinions on a
+proposal, but are expected to separate their role in evaluating the merits of a
 proposal from the role of evaluating consensus.
 
 ## Contributing
