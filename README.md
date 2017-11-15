@@ -47,7 +47,8 @@ an axis, its behavior and its merits.
 Also, please make sure you read the Contributing section below.
 
 To submit a proposal, use this process:
-1. Create a fork of this repository in your own account.
+1. Create a fork of this repository in your own account. (For details on creating and working
+with forks in GitHub, see [Fork a Repo](https://help.github.com/articles/fork-a-repo/).)
 2. Within that fork, create a new copy of the [Proposal Summary](Proposals/ProposalSummary.md)
 form in a new sub-folder of the Proposals folder. The sub-folder name must be unique and should
 be a short name that can be used to refer to your proposal. If you are submitting an alternative
