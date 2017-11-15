@@ -56,7 +56,7 @@ to another proposal with the same name, then append your ID or the name of the v
 represent. (Please use _ or - as delimiters, not spaces.)
 3. Edit the new Proposal Summary with details for your proposal, and add any supporting files in
 the same folder.
-4. Submit a pull request to have your changes pulled into the upstream repository (the base fork
+4. Create a pull request to have your changes pulled into the upstream repository (the base fork
 of the repository).  Your pull request will be checked to make sure the submission is well formed
 and in scope.
 
