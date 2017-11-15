@@ -1,5 +1,5 @@
 # OpenType Design Variation Axis Tags
-This repo is used for discussion and review of proposals for registration of OpenType design-variation axis tags.
+This GitHub repository is used for discussion and review of proposals for registration of OpenType design-variation axis tags.
 
 For background on OpenType variable fonts and design-variation axes, see [Background on Design Variation Axes](/BackgroundOnAxes.md).
 
