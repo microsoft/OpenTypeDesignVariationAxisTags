@@ -46,13 +46,17 @@ an axis, its behavior and its merits.
 
 Also, please make sure you read the Contributing section below.
 
-To submit a proposal, use a new topic branch to create a new copy of the
-[Proposal Summary](Proposals/ProposalSummary.md) form in a new sub-folder of the Proposals
-folder, then submit a pull request. The sub-folder name must be unique and should be a short
-name that can be used to refer to your proposal. If you are submitting an alternative to
-another proposal with the same name, then append your ID or the name of the vendor you 
-represent. (Please use _ or - as delimiters, not spaces.) Your pull request will be checked
-to make sure the submission is well formed and in scope.
+To submit a proposal, use this process:
+1. Create a fork of this repository in your own account.
+2. Within that fork, create a new copy of the [Proposal Summary](Proposals/ProposalSummary.md)
+form in a new sub-folder of the Proposals folder. The sub-folder name must be unique and should
+be a short name that can be used to refer to your proposal. If you are submitting an alternative
+to another proposal with the same name, then append your ID or the name of the vendor you 
+represent. (Please use _ or - as delimiters, not spaces.)
+3. Edit the new Proposal Summary with details for your proposal, and add any supporting files in
+the same folder.
+4. Submit a pull request to have your changes pulled into the base fork of the repository.  Your
+pull request will be checked to make sure the submission is well formed and in scope.
 
 To submit a combined proposal involving a group of multiple, inter-dependent axes, you should
 create a sub-folder under the Proposals folder for the combined proposal. You could provide a
