@@ -59,6 +59,9 @@ the same folder.
 4. Create a pull request to have your changes pulled into the upstream repository (the base fork
 of the repository).  Your pull request will be checked to make sure the submission is well formed
 and in scope.
+>> **Note:** It's recommended that you sync your fork with the upstream repo and resolve any merge
+conflicts within your fork prior to creating the pull request to merge changes from your fork back
+into the upstream repo.
 
 To submit a combined proposal involving a group of multiple, inter-dependent axes, you should
 create a sub-folder under the Proposals folder for the combined proposal. You could provide a
