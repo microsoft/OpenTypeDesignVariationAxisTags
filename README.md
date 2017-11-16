@@ -59,7 +59,8 @@ the same folder.
 4. Create a pull request to have your changes pulled into the upstream repository (the base fork
 of the repository).  Your pull request will be checked to make sure the submission is well formed
 and in scope.
->> **Note:** It's recommended that you sync your fork with the upstream repo and resolve any merge
+
+**Note:** It's recommended that you sync your fork with the upstream repo and resolve any merge
 conflicts within your fork prior to creating the pull request to merge changes from your fork back
 into the upstream repo. See the suggested workflow in
 [Suggested Process for Submitting Changes using Git](GitProcessSuggestions.md).
