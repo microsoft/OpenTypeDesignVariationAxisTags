@@ -90,7 +90,7 @@ first submitted, or at any time later.
 Every proposal for a new registered axis must be available for review and discussion for a
 period of at least one month before the axis will be registered. In addition to this minimum
 time period, there must be actual discussion and evaluation by independent contributors. It
-is essential to establish there is broad consensus on merits, and intent among independent
+is essential to establish there is broad consensus on merits, and intent among separate
 vendors to use and support the new axis. The review period is intended for building and
 establishing this consensus. The proposal submitter should monitor activity and respond to
 questions or concerns.
@@ -128,15 +128,15 @@ and that any significant objections have at least been responded to, if not addr
 
 Beyond agreement in principle on merits, it is also necessary to establish that the
 proposed axis will be used. For any proposed axis, there must be at least three
-independent foundries that indicate intent to use the axis in three or more separate font
-families or variable fonts. If the intended usage for an axis is primarily to have
+separate foundries that each indicate intent to use the axis in three or more separate
+font families or variable fonts. If the intended usage for an axis is primarily to have
 selection of axis values be controlled via programmatic interaction rather than direct
 user manipulation, then additionally there must be a statement of intent to implement
 support for the axis from at least two major platform vendors or three independent layout
-library owners. In some cases, it may be requested that two of the independent foundry or
-software supporters of a proposal provide demo implementations in order to confirm that
-there is a common understanding of how the proposed axis is expected to behave and be
-used.
+library owners. In some cases, it may be requested that at least two of the foundry or
+software supporters of a proposal provide demo independent implementations in order to
+confirm that there is a common understanding of how the proposed axis is expected to
+behave and be used.
 
 Microsoft, as custodians of the OpenType specification, will be the final judge that a
 proposal is mature, and that there is broad consensus and industry support. This
