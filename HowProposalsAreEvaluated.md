@@ -83,7 +83,7 @@ should view the need to build consensus as part of the investment it takes to en
 success.
 
 Note that consensus does not require unanimous agreement. It does require broad agreement that
-any serious objections have been addressed. A consensus very oftent requires some willingness
+any serious objections have been addressed. A consensus very often requires some willingness
 to make compromises to converge on something that most parties can accept.
 
 If a proposed axis does have good merits, then it is likely there will be vendors that plan
