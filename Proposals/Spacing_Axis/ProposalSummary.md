@@ -32,3 +32,6 @@ Tracking and CSS letterspacing are highly primitive mechanisms and they mess up 
 
 Example:
 <https://youtu.be/oXSuRSBMzmI>
+
+Additional information:
+<http://typedrawers.com/discussion/2088/otvar-spacing-axis>
