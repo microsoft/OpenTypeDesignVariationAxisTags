@@ -23,3 +23,12 @@ Glyph side-bearing distances (with ensuing effect on advance widths) are typical
 The Spacing axis can be used as a variation axis within a variable font. That is the primary use case anticipated. It can also be used within a ‘STAT’ table in non-variable fonts within a family that has spacing variants to provide a complete characterization of a font in relation to its family within the ‘STAT’ table.
 
 It is recommended that applications use Spacing variants to implement layout features such as ‘tracking’ or ‘character spacing’. This may be limited to variable fonts that implement Spacing as a variable axis. Applications that do this can use the axis values in combination with the font’s head.unitsPerEm value to map between the axis-value scale and physical units such as points. When Spacing variants are selected in this way, applications should assume that the font will provide all of the spacing adjustment, and not apply any additional glyph metric adjustments.
+
+Vendor commitments:
+DTL
+
+Conventionality benefits:
+Tracking and CSS letterspacing are highly primitive mechanisms and they mess up spacing (for instance with unwanted negative side bearings) and ruin the kerning. Tighter and wider spacing should be controlled by the font producer and hence needs to be recalculated. 
+
+Example:
+<https://youtu.be/oXSuRSBMzmI>
