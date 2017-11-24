@@ -35,6 +35,8 @@ already-registered or proposed axes, identify the axes or proosals.]
 **Similar axes:** [If this is similar to another already-registered or proposed axis &mdash; similar
 font behavior or function &mdash; provide the registered axis tag or proposal name.]
 
+**Axis type:** [Indicate whether you would characterize this axis as an optical axis or a parametric axis. A parametric axis affects only one specific aspect of a design, such as horizontal thickness of stems, independent of other aspects; manipulated on its own, a parametric axis might not produce visually pleasing results at all settings. A parametric axis is often likely to be hidden from direct user manipulation, and instead controlled by a higher level interface, or programmatic manipulation, in combination with other parametric axes. An optical axis can always be manipulated on its own to produce usable results at most or all settings; often, this will be because the axis affects two or more aspects of the design at once. For example, an optical size axis ('opsz') will often affect horizontal and vertical stroke thicknesses, contrast, glyph width and spacing, and x-height. As another example, the traditional width axis ('wdth') may affect horizontal or vertical stroke thicknesses as well as overall glyph width in order to maintain consistency in perceived overall color of text.]
+
 ## Proposed Axis Details
 In this section, provide a draft of the fields of information that would be included in the registry
 page describing the axis. All fields are required and must be provided before an axis tag can be
