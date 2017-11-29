@@ -44,7 +44,7 @@
 
 **UI recommendations:** This axis should be hidden from direct user-selection in UI if it is used for implementation of other user-selectable settings such as tracking. If the axis becomes adopted for use in implementation of tracking features in applications, then use of the HIDDEN_AXIS flag in the 'fvar' table should be considered for this axis.
 
-**Script or language considerations:** This axis can potentially be used for any script. If used for scripts with connecting behaviour, such as Arabic or Devanagari, or, for example, connecting cursive typefaces for the Latin script, then the design of inter-glyph connections may need particular attention.
+**Script or language considerations:** This axis can potentially be used for any script. For scripts that contain complex outline while requiring pixel alignment, like icon fonts or CJK ideographs, it could be extremely useful. If used for scripts with connecting behaviour, such as Arabic or Devanagari, or, for example, connecting cursive typefaces for the Latin script, then the design of inter-glyph connections may need particular attention.
 
 **Additional information:** The `ppem` axis is used to encode deltas that shift points to the place closer to the pixel grid. Values of `ppem` axis would always be a non-negative integer.
 
