@@ -23,7 +23,7 @@
 
 **Similar axes:** `wdth`
 
-**Axis type:** Metrics
+**Axis type:** Optical
 
 
 ## Proposed Axis Details
