@@ -54,7 +54,7 @@ The `ppem` axis variation could be combined with existing TrueType hints, i.e., 
 
 ## Justification
 
-**Vendor commitments:** N/A
+**Vendor commitments:** [none at this time]
 
 **Conventionality benefits:** Pixel alignment may be crucial in some cases, and the form of such mechanism (TrueType instructions) are very hard to understand, for designers. Therefore, a variation axis could be a easier way to encode pixel alignment data into fonts.
 
@@ -62,5 +62,5 @@ The `ppem` axis variation could be combined with existing TrueType hints, i.e., 
 
 ## Additional information
 
-N/A
+[no additional information at this time]
 
