@@ -58,7 +58,7 @@ When using a variable font, applications may choose to make small, automated '`h
 
 ## Justification
 
-**Vendor commitments:** Founder has a prototype version of YouHei with this axis, alongside Width and Weight axis.
+**Vendor commitments:** Founder Electronics has a prototype of YouHei using this axis, and in the future will ship multiple fonts that use this axis. (Source: TangTingFZ)
 
 **Conventionality benefits:** Similar to `wdth`, it provides way to adjust or fit the height of vertical text.
 
