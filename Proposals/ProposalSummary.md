@@ -30,7 +30,7 @@ put this summary in that folder.]
 **Overview:** [A brief description of the proposal&mdash;a detailed description is provided below.]
 
 **Related axes:** [If this axis is intended to be used specifically in combination with certain other
-already-registered or proposed axes, identify the axes or proosals.]
+already-registered or proposed axes, identify the axes or proposals.]
 
 **Similar axes:** [If this is similar to another already-registered or proposed axis &mdash; similar
 font behavior or function &mdash; provide the registered axis tag or proposal name.]
