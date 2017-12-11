@@ -80,3 +80,8 @@ it is likely to be become broadly adopted or familiar.
 
 **Interoperability benefits:** [Indicate ways you think interoperability of this axis will benefit
 end users, font vendors or software developers.]
+
+## Other Supporting Information
+
+[You can use this section to provide other supporting information, such as providing images or videos
+to demonstrate the behaviour of an axis, or links to demo fonts.]
