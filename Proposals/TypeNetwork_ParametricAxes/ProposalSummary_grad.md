@@ -1,10 +1,28 @@
+# Proposal Summary Form: Grade
+
+This proposal summary describes a proposed Grade axis as part of a proposed system of parametric and optical axes.
+
+## Administrative information
+
+See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
+
+## General Technical Information
+
+**Overview:** This describes a proposed Grade axis, which would allow adjustments to visual weight without changes to text metrics.
+
+**Related axes:** Always: [xtra](ProposalSummary_xtra.md), [xopq](ProposalSummary_xopq.md).
+Sometimes: [yopq](ProposalSummary_yopq.md), [ytlc](ProposalSummary_ytlc.md),
+[ytas](ProposalSummary_ytas.md), [ytuc](ProposalSummary_ytuc.md).
+
+**Similar axes:** wght, wdth
+
+**Axis type:** Optical
+
 ## Proposed Axis Details
 
 **Tag:** grad
 
 **Name:** Grade
-
-**Axis type:** Optical
 
 **Description:** Used to vary stroke thicknesses or other design details to give variation from lighter to blacker without changing width; may be constructed by blending other primary axes, or via referenced instances of other axes
 
@@ -20,8 +38,13 @@
 
 **Script or language considerations:** Can be used for all scripts
 
-**Related axes:** Always: xtra xopq. Sometime: yopq ytlc ytos ytus
+**Additional information:** This value range starts at 1 because if it was zero, no ink would be drawn. 
 
-**Similar axes:** wght, wdth
+## Justification
 
-**Additional information:** This value range starts at 1 because if it was zero, no ink would be drawn. ![Demonstration](demos/animation-grad.gif)
+See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
+
+## Other Supporting Information
+
+The following image provides a visual demonstration:
+![Demonstration](demos/animation-grad.gif)
