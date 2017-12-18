@@ -1,6 +1,6 @@
 # Proposal Summary Form: Y Transparent Ascender
 
-This proposal summary describes a proposed X Transparent Ascender axis as part of a
+This proposal summary describes a proposed Y Transparent Ascender axis as part of a
 proposed system of parametric and optical axes.
 
 ## Adminstrative Information
