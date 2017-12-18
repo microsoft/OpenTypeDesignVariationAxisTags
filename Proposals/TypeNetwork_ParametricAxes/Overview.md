@@ -1,3 +1,5 @@
+# Type Network Parametric Axes Proposal Overview
+
 ## Administrative Information
 **Proposers name:** Sam Berlow
 
@@ -23,7 +25,7 @@ But these could not be altered by users, and this led to widespread simplificati
 
 The variable fonts specification in the OpenType v1.8 font format changes that situation. We see the possibility to solve many typographic problems with it, if it includes a more in-depth and complete set of attributes that users can interact with, or adjust through programming.
 
-OpenType variable fonts launched with registered axes that pertain to some of these attributes, such as width, weight, optical size, and slant. This proposal contains additional axes for attributes that are universal for all scripts and designs, and also some specific to Latin, such as cap height and vertical depth of descenders.
+ OpenType variable fonts launched with registered axes that pertain to some of these attributes, such as width, weight, optical size, and slant. This proposal contains additional axes for attributes that are universal for all scripts and designs, and also some specific to Latin, such as cap height and vertical depth of descenders.
 
 This initial proposal for Latin axes  is interrelated, and forms a gestalt system. The system can be extended with more axes, not in this proposal, for all the world’s scripts. A Latin variable font with these axes can be adjusted to harmonize with a static font from any of those scripts. For example, such a font paired in a document with a non-variable Chinese font can have multiple descender lengths, depending on whether Chinese or Latin is the primary script in a text run. We expect to see single variable fonts that contain several scripts and several sets of glyph group alignment axes.
 
@@ -39,7 +41,9 @@ Overall, we believe these axes allow type users, especially software developers 
 
 **Parametric Axes**
 
-The goal of this proposal is to name and define universal parametric axes in the X and Y dimensions: X Opaque, Y Opaque, X Transparent, Y Transparent.
+The goal of this proposal is to name and define universal parametric axes in the X and Y
+dimensions: [X Opaque](ProposalSummary_xopq.md), [Y Opaque](ProposalSummary_yopq.md),
+[X Transparent](ProposalSummary_xtra.md), and [Y Transparent](ProposalSummary_ytra.md).
 
 Since these axes are for the overall typeface, they are universal across scripts and designs.
 
@@ -49,7 +53,9 @@ An example of a composed “high level” axis is one for “grade,” where X T
 
 **Latin Parametric**
 
-These four Latin axes apply to glyphs and parts of glyphs specific to the Latin script: Y Uppercase, Y Lowercase, Y Ascender, Y Descender.
+These four Latin axes apply to glyphs and parts of glyphs specific to the Latin script:
+[Y Transparent Uppercase](ProposalSummary_ytuc.md), [Y Transparent Lowercase](ProposalSummary_ytlc.md),
+[Y Transparent Ascender](ProposalSummary_ytas.md), and [Y Transparent Descender](ProposalSummary_ytde.md).
 
 These axes allow users to tailor these attributes of type independently from their other axis position choices, such as a specific position on an Optical Size axes which may itself adjust these attributes, but too little or too much for a particular situation.
 
@@ -57,9 +63,10 @@ The ability to change the height of the lowercase and/or uppercase, independentl
 
 **Optical Axes**
 
-This proposal includes 3 “higher level” axes: ‘Weight Per Mille’ and ‘Width Per Mille’ and ‘Grade.’ 
+This proposal includes 3 “higher level” axes: [Per-Mille Weight](ProposalSummary_pwht.md),
+[Per-Mille Width](ProposalSummary_pwth.md), and [Grade](ProposalSummary_grad.md). 
 
-The first 2 differ from the already existing registered axes ‘Weight’ and ‘Width’ in value systems. While those existing axes are useful with value systems designed for backwards compatibility (such as Regular at 400 and Bold at 700,) we think it is important to offer users the same per-mille-of-em user experience as the other axes in this proposal. These are formed by using “lower level” axes in concert.
+The first 2 differ from the already-existing registered axes ‘Weight’ and ‘Width’ in value systems. While those existing axes are useful with value systems designed for backwards compatibility (such as Regular at 400 and Bold at 700,) we think it is important to offer users the same per-mille-of-em user experience as the other axes in this proposal. These are formed by using “lower level” axes in concert.
 
 Grade is a type attribute from refined typography, meaning that apparent weight changes occur without changes to glyph widths, so that line layouts remain constant – no reflow. It is formed mainly by increasing X Opaque while decreasing X Transparent (or vice versa.) However, other “lower level” axes will typically also be blended in, so changes are not only in the X dimension; for example, as grade gets very high and counterforms become narrow, a slight increase in Y Transparent and decrease in Y Opaque can open them up. 
 
