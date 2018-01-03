@@ -1,4 +1,4 @@
-# Proposal Summary Form
+# Proposal Summary Form: Glyph Extension
 
 ## Administrative Information
 **Proposers name:** Sahar Afshar and José Solé
