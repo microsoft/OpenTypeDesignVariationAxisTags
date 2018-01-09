@@ -48,6 +48,9 @@ attribute that all users can easily point to, but rather than calling this axes 
 we see conventionality benefits in a name that fits into the systematic structure of the overall
 system of proposed axes: Y dimension transparency of upper case letters.
 
+ytuc is measured from the baseline to the top of Uppercase
+
+
 ## Justification
 
 See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
