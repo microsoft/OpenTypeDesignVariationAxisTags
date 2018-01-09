@@ -47,6 +47,8 @@ general area that ascenders live in is an attribute that all users can easily po
 may know by name. This name fits into the systematic structure of the overall system of
 proposed axes: Y dimension transparency of ascenders.
 
+ytas is measured from the top of the ytlc to the top of the ascender
+
 ## Justification
 
 See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
