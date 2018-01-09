@@ -39,7 +39,8 @@ video setting to adjust to space, resolution or orientation.
 **UI recommendations:** Users may choose to program a variant in connection to direct or
 conjunctive input for a page description language, or via a user interface.
 
-**Script or language considerations:** Can be used for all scripts.
+**Script or language considerations:** This axis is primarily intended for Latin script and other scripts that may have a case, or character group intended to remain aligned relative to the Latin lowercase throughout the variable space. Typically, this would apply to scripts in which some letters generally have a core height the same or close to the Latin lowercase in the font.
+
 
 **Additional information:** Y Transparent Lowercase changes lowercase letter white space in
 the y, or vertical, direction. This axis contributes to optical size by raising the lowercase
