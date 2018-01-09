@@ -50,6 +50,8 @@ calling this axis "x height," we see conventionality benefits in a name that fit
 systematic structure of the overall system of proposed axes: Y dimension transparency of
 lowercase letters.
 
+ytlc is measured from the baseline to the top x-height
+
 ## Justification
 
 See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
