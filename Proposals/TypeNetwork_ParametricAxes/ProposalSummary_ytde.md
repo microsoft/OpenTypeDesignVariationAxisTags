@@ -48,6 +48,8 @@ collisions in this area suffered by fonts without it) but not an area they may k
 This name fits into the systematic structure of the overall system of proposed axes: Y
 dimension transparency of descenders.
 
+ytde is measured from the baseline to the bottom of descender
+
 ## Justification
 
 See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
