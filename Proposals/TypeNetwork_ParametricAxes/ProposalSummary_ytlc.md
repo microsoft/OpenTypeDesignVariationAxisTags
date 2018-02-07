@@ -28,7 +28,7 @@ of lowercase letters (x-height).
 
 **Valid numeric range:**  0 to 1000
 
-**Scale interpretation:** Values should be interpreted as per-mille-of-em.
+**Scale interpretation:** Values should be interpreted as per-mille-of-em. The ytlc value is measured from the baseline to the top of the x-height.
 
 **Recommended or required “Regular” value:** N/A
 
@@ -49,8 +49,6 @@ of lowercase Latin letters is an attribute that many users can point to, but rat
 calling this axis "x height," we see conventionality benefits in a name that fits into the
 systematic structure of the overall system of proposed axes: Y dimension transparency of
 lowercase letters.
-
-ytlc is measured from the baseline to the top x-height
 
 ## Justification
 
