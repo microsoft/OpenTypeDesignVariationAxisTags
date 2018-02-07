@@ -27,7 +27,7 @@ See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
 
 **Valid numeric range:**  -1000 to 0
 
-**Scale interpretation:** Values should be interpreted as per-mille-of-em.
+**Scale interpretation:** Values should be interpreted as per-mille-of-em. The ytde value is measured from the baseline to the bottom of the descender.
 
 **Recommended or required “Regular” value:** N/A
 
@@ -47,8 +47,6 @@ that descenders live in is an attribute that all users can easily point to (alon
 collisions in this area suffered by fonts without it) but not an area they may know by name.
 This name fits into the systematic structure of the overall system of proposed axes: Y
 dimension transparency of descenders.
-
-ytde is measured from the baseline to the bottom of descender
 
 ## Justification
 
