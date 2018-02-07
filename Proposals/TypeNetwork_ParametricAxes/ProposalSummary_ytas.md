@@ -28,7 +28,7 @@ height of ascenders.
 
 **Valid numeric range:**  0 to 1000
 
-**Scale interpretation:** Values should be interpreted as per-mille-of-em.
+**Scale interpretation:** Values should be interpreted as per-mille-of-em. The ytas value is measured from the x-height to the top of the ascender.
 
 **Recommended or required “Regular” value:** N/A
 
@@ -46,8 +46,6 @@ general area that ascenders live in is an attribute that all users can easily po
 (along with collisions in this area suffered by fonts without it) but not an area they
 may know by name. This name fits into the systematic structure of the overall system of
 proposed axes: Y dimension transparency of ascenders.
-
-ytas is measured from the top of the ytlc to the top of the ascender
 
 ## Justification
 
