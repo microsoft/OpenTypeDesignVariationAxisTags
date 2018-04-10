@@ -39,7 +39,8 @@ setting to adjust to space, resolution or orientation.
 **UI recommendations:** Users may choose to program a variant in connection to direct or
 conjunctive input for a page description language, or via a user interface.
 
-**Script or language considerations:** Can be used for all scripts.
+**Script or language considerations:** This axis is primarily intended for Latin script and other scripts that may have a case distinction, or character group intended to remain aligned relative to the Latin Uppercase throughout the variable space. Typically, this would apply to scripts in which some letters generally have a core height the same or close to the Latin Uppercase in the font.
+
 
 **Additional information:** Y Transparent Uppercase changes the y, or vertical, direction size of
 white space in uppercase letters. By itself, contributes to the design space when building of
