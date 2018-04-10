@@ -28,7 +28,7 @@ height of ascenders.
 
 **Valid numeric range:**  0 to 1000
 
-**Scale interpretation:** Values should be interpreted as per-mille-of-em.
+**Scale interpretation:** Values should be interpreted as per-mille-of-em. The ytas value is measured from the x-height to the top of the ascender.
 
 **Recommended or required “Regular” value:** N/A
 
