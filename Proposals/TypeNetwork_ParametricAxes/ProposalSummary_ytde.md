@@ -27,7 +27,7 @@ See details in [Type Network Parametric Axes Proposal Overview](Overview.md).
 
 **Valid numeric range:**  -1000 to 0
 
-**Scale interpretation:** Values should be interpreted as per-mille-of-em.
+**Scale interpretation:** Values should be interpreted as per-mille-of-em. The ytde value is measured from the baseline to the bottom of the descender.
 
 **Recommended or required “Regular” value:** N/A
 
