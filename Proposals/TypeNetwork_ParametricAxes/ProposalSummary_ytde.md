@@ -37,7 +37,7 @@ in coordination leading and column width to prevent letters from touching vertic
 **UI recommendations:** Users may choose to program a variant in connection to direct or
 conjunctive input for a page description language, or via a user interface.
 
-**Script or language considerations:** Can be used for all scripts.
+**Script or language considerations:** This axis is primarily intended for Latin script and other scripts that may have descender elements intended to remain aligned relative to the Latin descenders throughout the variable space. Typically, this would apply to scripts in which some letters generally have a core height above the descender being aligned with the Latin descender.
 
 **Additional information:** Y Transparent Descender changes the y, or vertical, descenders.
 Contributes to optical size in making small sizes fit better in text settings. Useful in
