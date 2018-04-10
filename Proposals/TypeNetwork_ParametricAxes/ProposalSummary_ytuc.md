@@ -28,7 +28,7 @@ height of uppercase letters (cap-height).
 
 **Valid numeric range:**  -1000 to 1000
 
-**Scale interpretation:** Values should be interpreted as per-mille-of-em.
+**Scale interpretation:** Values should be interpreted as per-mille-of-em. The ytuc value is measured from the baseline to the top of the uppercase (cap) height.
 
 **Recommended or required “Regular” value:** N/A
 
